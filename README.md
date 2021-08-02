@@ -1,16 +1,14 @@
 ### Viva españa
-
-<!--
-**luisgmzz/luisgmzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```js
+const me = {
+  name: "luisgmzz",
+  age: "17",
+  level: "Junior",
+  country: "Spain🔝",
+  languages: ["JavaScript", "Python"]
+  frameworks: {
+    frontend: ["React"],
+    backend: ["Express"]
+  }
+};
+```
