@@ -3,15 +3,32 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=luisgmzz&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 ```js
-const me = {
+type IFrameworks = {
+  frontend: string[];
+  backend: string[];
+};
+
+interface IDeveloper {
+  name: string;
+  age: number;
+  level: string;
+  country: string;
+  editor: string;
+  languages: string[];
+  frameworks: IFrameworks;
+}
+
+const me: IDeveloper = {
   name: "luisgmzz",
-  age: "17",
+  age: 17,
   level: "Junior",
   country: "Spain🔝",
-  languages: ["JavaScript", "Python"]
+  editor: "VisualStudioCode",
+  languages: ["Typescript", "JavaScript", "Python"],
   frameworks: {
     frontend: ["React"],
     backend: ["Express"]
   }
 };
+
 ```
