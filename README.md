@@ -11,7 +11,6 @@ type IFrameworks = {
 interface IDeveloper {
   name: string;
   age: number;
-  level: string;
   country: string;
   editor: string;
   languages: string[];
@@ -21,12 +20,11 @@ interface IDeveloper {
 const me: IDeveloper = {
   name: "luisgmzz",
   age: 17,
-  level: "Junior",
   country: "Spain🔝",
   editor: "VisualStudioCode",
   languages: ["Typescript", "JavaScript", "Python"],
   frameworks: {
-    frontend: ["React"],
+    frontend: ["React", "Svelte"],
     backend: ["Express"]
   }
 };
